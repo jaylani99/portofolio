@@ -248,3 +248,12 @@ section.animate {
     opacity: 1;
     transform: translateY(0);
 }
+@media (max-width: 768px) {
+    /* ... existing media query code ... */
+    .hero-image {
+        max-width: 500px;
+        /* Smaller on mobile devices */
+        height: auto;
+        margin: 0 auto;
+    }
+}
